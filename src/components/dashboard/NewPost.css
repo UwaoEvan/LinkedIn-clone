@@ -1,0 +1,32 @@
+.newpost__container{
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+    background-color: white;
+    margin-top: 20px;
+    height: 120px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.newpost__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+   
+}
+.newpost__header > form > input{
+    outline: none;
+    border: 0.5px solid '#f3f2ef';
+    padding: 10px 45px;
+    border-radius: 20px;
+    width: 100%
+}
+.newpost__icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,6 +1,5 @@
 .hashtags__container{
     display: flex;
-    flex: 0.2;
     flex-direction: column;
     justify-self: center;
     background-color: white;

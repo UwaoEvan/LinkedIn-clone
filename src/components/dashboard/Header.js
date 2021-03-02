@@ -1,7 +1,7 @@
 import './Header.css';
 import { Search, Home, SupervisorAccount, BusinessCenter, QuestionAnswer, Notifications, Apps } from '@material-ui/icons';
 
-import HeaderIcons from './HeaderIcons';
+import HeaderIcons from '../reusable/HeaderIcons';
 
 export default function Header() {
     return (

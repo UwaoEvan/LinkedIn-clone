@@ -1,0 +1,16 @@
+.formicons__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.formicons__container:hover{
+    background-color: #f3f2ef;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.formicons__container > p{
+    font-size: 14px;
+    color:gray;
+    padding-left: 5px;
+}

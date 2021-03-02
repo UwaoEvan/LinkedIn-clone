@@ -1,12 +1,16 @@
 import './App.css';
-import Header from '../src/components/Header';
-import LeftSidebar from '../src/components/LeftSidebar';
+import Header from './components/dashboard/Header';
+import LeftSidebar from '../src/components/dashboard/LeftSidebar';
+import NewPost from '../src/components/dashboard/NewPost';
 
 function App() {
   return (
     <div className="app__container">
       <Header />
-      <LeftSidebar />
+      <div className='app__items'>
+        <LeftSidebar />
+        <NewPost />
+      </div>
     </div>
   );
 }
