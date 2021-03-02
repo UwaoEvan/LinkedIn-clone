@@ -1,0 +1,22 @@
+.headericons__container {
+padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    cursor: pointer;
+}
+.headericons__container > p{
+    color: gray;
+    font-size: small;
+    text-align: center;
+}
+
+.headericons__icon{
+    display: flex;
+    color:gray;
+    align-items: center;
+    justify-content: center;
+}
+.headericons__icon:hover,p:hover{
+    color: black;
+}
