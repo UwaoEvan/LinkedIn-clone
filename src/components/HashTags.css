@@ -1,0 +1,18 @@
+.hashtags__container{
+    display: flex;
+    flex: 0.2;
+    flex-direction: column;
+    justify-self: center;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+.hashtags__tags{
+    padding: 10px;
+}
+.hashtags__tags > p:hover{
+    cursor: pointer;
+    background-color: #f3f2ef;
+}
