@@ -1,0 +1,29 @@
+.courses__container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+.courses__title{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.courses__details{
+    padding-bottom: 20px;
+}
+.details {
+ color: gray;
+ font-size: 12px;
+}
+li{
+    font-size: 16px;
+}
+li:hover{
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}

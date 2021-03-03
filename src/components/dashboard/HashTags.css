@@ -4,9 +4,8 @@
     justify-self: center;
     background-color: white;
     margin-top: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
     border-radius: 10px;
+    border: 1px solid #ccc;
 }
 .hashtags__tags{
     padding: 10px;

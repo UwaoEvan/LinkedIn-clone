@@ -1,0 +1,14 @@
+.aside__container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.aside__title{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}

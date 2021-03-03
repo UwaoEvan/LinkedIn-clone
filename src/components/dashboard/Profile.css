@@ -5,9 +5,8 @@
     justify-self: center;
     background-color: white;
     margin-top: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
     border-radius: 10px;
+    border: 1px solid #ccc;
 }
 .profile__banner{
     width: 100%;
