@@ -1,10 +1,10 @@
 import './FormIcons.css';
 
-export default function FormIcons({ Icon, title, color }) {
+export default function FormIcons({ Icon, title, color, clicked }) {
     return (
-        <div className='formicons__container'>
+        <button className='formicons__container' onClick={clicked}>
             {Icon && <Icon style={{ color: color }} />}
             <p>{title}</p>
-        </div>
+        </button >
     )
 }

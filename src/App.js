@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/dashboard/Header';
 import LeftSidebar from '../src/components/dashboard/LeftSidebar';
-import NewPost from '../src/components/dashboard/NewPost';
+import Dashboard from '../src/components/dashboard/Dashboard';
 import RightSidebar from '../src/components/dashboard/RightSidebar';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <div className='app__items'>
         <LeftSidebar />
-        <NewPost />
+        <Dashboard />
         <RightSidebar />
       </div>
     </div>

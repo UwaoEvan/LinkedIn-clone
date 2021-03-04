@@ -1,5 +1,5 @@
 import './Profile.css';
-import { Avatar, Divider } from '@material-ui/core';
+import { Divider } from '@material-ui/core';
 import TurnedInIcon from '@material-ui/icons/TurnedIn';
 
 export default function Profile() {
@@ -9,7 +9,7 @@ export default function Profile() {
 
             </div>
             <div className='profile__details'>
-                <Avatar style={{ marginBottom: 20 }} />
+                <img src='https://picsum.photos/200' className='avatar' alt='PP' />
                 <h3>Evan Uwao</h3>
                 <p style={{ fontSize: 12, color: 'gray', paddingBottom: 20 }}>Full Stack Developer</p>
             </div>

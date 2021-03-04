@@ -8,8 +8,8 @@ export default function NewPost() {
     return (
         <div className='newpost__container'>
             <div className='newpost__header'>
-                <Avatar style={{ marginRight: 10 }} />
-                <form>
+                <Avatar src='https://picsum.photos/200' />
+                <form style={{ width: '100%' }}>
                     <input type="text" placeholder='Start a post' />
                 </form>
             </div>

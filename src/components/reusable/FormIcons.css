@@ -3,6 +3,9 @@
     flex-direction: row;
     align-items: center;
     padding: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
 .formicons__container:hover{
     background-color: #f3f2ef;
