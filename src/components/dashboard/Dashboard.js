@@ -10,6 +10,10 @@ export default function Dashboard() {
             <Post />
             <Post />
             <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
         </div>
     )
 }

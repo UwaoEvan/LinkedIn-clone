@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    height: 120px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
@@ -10,13 +9,19 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px;
-   
+    padding: 10px;  
 }
+
+.newpost__header > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
 .newpost__header > form > input{
     outline: none;
     border: 0.5px solid '#666666';
-    padding: 10px 10px;
+    padding: 15px 10px;
     border-radius: 20px;
     width: 90%
 }

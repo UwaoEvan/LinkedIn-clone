@@ -1,5 +1,4 @@
 import './NewPost.css';
-import { Avatar } from '@material-ui/core';
 import { CropOriginal, YouTube, Event, FormatListBulleted } from '@material-ui/icons';
 
 import FormIcons from '../reusable/FormIcons';
@@ -8,7 +7,7 @@ export default function NewPost() {
     return (
         <div className='newpost__container'>
             <div className='newpost__header'>
-                <Avatar src='https://picsum.photos/200' />
+                <img src='https://picsum.photos/200' alt='logo' />
                 <form style={{ width: '100%' }}>
                     <input type="text" placeholder='Start a post' />
                 </form>
